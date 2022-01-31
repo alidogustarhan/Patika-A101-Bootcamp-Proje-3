@@ -1,0 +1,26 @@
+{
+  "name": "index",
+  "version": "1.0.0",
+  "description": "AA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1062.0",
+    "axios": "^0.24.0",
+    "dotenv": "^14.3.2",
+    "dynamodb-data-types": "^4.0.0",
+    "express": "^4.17.2",
+    "express-jwt": "^6.1.0",
+    "joi": "^17.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^3.1.2",
+    "md5": "^2.3.0",
+    "nodemon": "^2.0.15",
+    "uuid": "^8.3.2"
+  }
+}
